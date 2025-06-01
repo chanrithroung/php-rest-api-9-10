@@ -471,7 +471,6 @@ async function deleteProduct(id) {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                action: 'delete',
                 id: id
             })
         });
